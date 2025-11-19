@@ -1,0 +1,24 @@
+server:
+
+  port: 8080
+
+spring:
+  datasource:
+
+    url: jdbc:postgresql://localhost:5432/employee_db
+    username: postgres
+    password: 12345
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+
+      ddl-auto: update
+    show-sql: true
+    open-in-view: false
+
+
+jwt:
+
+  secret: VGhpc0lzQVNlY3JldEtleUZvckp3dFRva2VuczEyMzQ1Ng==
+
+  expiration-ms: 86400000
