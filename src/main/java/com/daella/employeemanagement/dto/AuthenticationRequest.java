@@ -9,7 +9,7 @@ import lombok.Data;
 @Schema(description = "Request payload for authenticating a user")
 public class AuthenticationRequest {
 
-    @Schema(description = "Username or email used to log in", example = "john_doe")
+    @Schema(description = "Username or email used to log in", example = "Leslie")
     @NotBlank(message = "Username or email is required")
     private String usernameOrEmail;
 

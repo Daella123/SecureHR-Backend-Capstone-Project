@@ -17,10 +17,10 @@ public class UserResponse {
     @Schema(description = "Database identifier of the user", example = "1")
     private Long id;
 
-    @Schema(description = "Username chosen by the user", example = "john_doe")
+    @Schema(description = "Username chosen by the user", example = "Leslie")
     private String username;
 
-    @Schema(description = "User's email address", example = "john.doe@example.com")
+    @Schema(description = "User's email address", example = "leslie@example.com")
     private String email;
 
     @Schema(description = "Role assigned to the user", example = "USER")

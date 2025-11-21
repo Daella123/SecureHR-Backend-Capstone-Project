@@ -19,7 +19,7 @@ public class EmployeeResponse {
     @Schema(description = "Identifier of the employee", example = "1")
     private Long id;
 
-    @Schema(description = "Full name of the employee", example = "Alice Johnson")
+    @Schema(description = "Full name of the employee", example = "SINE Daella")
     private String name;
 
     @Schema(description = "Job position or title", example = "Software Engineer")

@@ -15,7 +15,7 @@ import java.time.LocalDate;
 @Schema(description = "Request payload for creating or updating an employee")
 public class EmployeeRequest {
 
-    @Schema(description = "Full name of the employee", example = "Alice Johnson")
+    @Schema(description = "Full name of the employee", example = "SINE Daella")
     @NotBlank(message = "Name is required")
     private String name;
 

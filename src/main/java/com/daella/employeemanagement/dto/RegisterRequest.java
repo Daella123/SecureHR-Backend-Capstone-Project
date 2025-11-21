@@ -11,12 +11,12 @@ import lombok.Data;
 @Schema(description = "Request payload for registering a new user")
 public class RegisterRequest {
 
-    @Schema(description = "Unique username for the new account", example = "john_doe")
+    @Schema(description = "Unique username for the new account", example = "Leslie")
     @NotBlank(message = "Username is required")
     @Size(min = 3, max = 50, message = "Username must be between 3 and 50 characters")
     private String username;
 
-    @Schema(description = "Unique email address for the new account", example = "john.doe@example.com")
+    @Schema(description = "Unique email address for the new account", example = "leslie@example.com")
     @NotBlank(message = "Email is required")
     @Email(message = "Email should be valid")
     private String email;
