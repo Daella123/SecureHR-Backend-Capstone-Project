@@ -30,4 +30,6 @@ public class EmployeeResponse {
 
     @Schema(description = "Date the employee was hired (ISO format)", example = "2025-01-15")
     private LocalDate hireDate;
+
+
 }
