@@ -19,7 +19,7 @@ import org.springframework.context.annotation.Configuration;
                         description = "Local Server"
                 ),
                 @Server(
-                        url = "securehr-backend-capstone-project-production.up.railway.app",
+                        url = "https://securehr-backend-capstone-project-production.up.railway.app",
                         description = "Production Server"
                 )
         }
